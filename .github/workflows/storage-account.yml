@@ -30,7 +30,7 @@ jobs:
         STORAGE_ACCOUNT_NAME="mystorage$RANDOM"
         az storage account create \
           --name $STORAGE_ACCOUNT_NAME \
-          --resource-group <your_resource_group_name> \
-          --location <region> \
+          --resource-group CareerByteCode-RG \
+          --location eastus \
           --sku Standard_LRS
         echo "Storage account $STORAGE_ACCOUNT_NAME created."
